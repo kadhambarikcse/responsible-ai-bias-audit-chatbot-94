@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output caches & temporary files
+.pytest_cache/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep output directories tracked
+!outputs/charts/.gitkeep
+!outputs/summary/.gitkeep
